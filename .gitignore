@@ -1,0 +1,10 @@
+.DS_Store
+/.build
+/Packages
+/*.xcodeproj
+xcuserdata/
+DerivedData/
+/.swiftpm
+.netrc
+/Package.resolved
+.Ulysses-Group.plist
