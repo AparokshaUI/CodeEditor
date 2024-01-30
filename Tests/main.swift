@@ -7,7 +7,6 @@
 
 import Adwaita
 import CodeEditor
-import Libadwaita
 
 // swiftlint:disable missing_docs implicitly_unwrapped_optional no_magic_numbers
 
@@ -35,7 +34,6 @@ struct Test: App {
                     .style("suggested-action")
                 }
             }
-            .inspect { _ = ($0 as? ToolbarView)?.topBarStyle(.raised) }
             .onAppear {
                 window.setDefaultSize(width: 300, height: 250)
             }

@@ -37,12 +37,24 @@ Get the editor's view storage.
 - Parameter modifiers: The view modifiers.
 - Returns: The view storage.
 
-### `update(_:modifiers:)`
+### `update(_:modifiers:updateProperties:)`
 
 Update a view storage to the editor.
 - Parameters:
     - storage: The view storage.
     - modifiers: The view modifiers.
+    - updateProperties: Whether to update the view's properties.
+
+### `getText(buffer:)`
+
+Get the text view's content.
+- Parameter buffer: The text view's buffer.
+- Returns: The content.
+
+### `setLanguage(buffer:)`
+
+Get the text view's programming language.
+- Parameter buffer: The text view's buffer.
 
 ### `innerPadding(_:edges:)`
 

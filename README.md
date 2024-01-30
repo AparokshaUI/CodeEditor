@@ -17,7 +17,7 @@
   </a>
 </p>
 
-_CodeEditor_ adds support for text and code editors to GNOME apps built using [Adwaita](https://github.com/AparokshaUI/Adwaita) (declarative) or [Libadwaita](https://github.com/AparokshaUI/Libadwaita) (imperative).
+_CodeEditor_ adds support for text and code editors to GNOME apps built using [Adwaita for Swift](https://github.com/AparokshaUI/Adwaita).
 
 ## Table of Contents
 
@@ -39,14 +39,13 @@ Install `gtksourceview-devel` or similar (based on the package manager) as well 
 
 ## Usage
 
-Take a look at the simple [sample app](Tests/main.swift). If you prefer an imperative over a declarative coding style, import the `CodeEditorFoundation` instead.
-Check out the [Adwaita](https://github.com/AparokshaUI/Adwaita) (declarative) or [Libadwaita](https://github.com/AparokshaUI/Libadwaita) (imperative) packages.
+Take a look at the simple [sample app](Tests/main.swift).
+Check out the [Adwaita](https://github.com/AparokshaUI/Adwaita) packages.
 
 ## Thanks
 
 ### Dependencies
 - [Adwaita](https://github.com/AparokshaUI/Adwaita) licensed under the [GPL-3.0 license](https://github.com/AparokshaUI/Adwaita/blob/main/LICENSE.md)
-- [Libadwaita](https://github.com/AparokshaUI/Libadwaita) licensed under the [GPL-3.0 license](https://github.com/AparokshaUI/Libadwaita/blob/main/LICENSE.md)
 
 ### Other Thanks
 - The [contributors](Contributors.md)

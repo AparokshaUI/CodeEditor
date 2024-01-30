@@ -1,5 +1,4 @@
 docs:
-	@sourcedocs generate --min-acl private -r --spm-module CodeEditorFoundation --output-folder Documentation/CodeEditorFoundation
 	@sourcedocs generate --min-acl private -r --spm-module CodeEditor --output-folder Documentation/CodeEditor
 
 swiftlint:

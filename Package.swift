@@ -17,22 +17,17 @@ let package = Package(
             targets: ["CodeEditor"]
         ),
         .library(
-            name: "CodeEditorFoundation",
-            targets: ["CodeEditorFoundation"]
+            name: "CCodeEditor",
+            targets: ["CCodeEditor"]
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/AparokshaUI/Adwaita", from: "0.1.4"),
-        .package(url: "https://github.com/AparokshaUI/Libadwaita", from: "0.1.1")
+        .package(url: "https://github.com/AparokshaUI/Adwaita", from: "0.2.0")
     ],
     targets: [
         .target(
             name: "CodeEditor",
-            dependencies: ["CodeEditorFoundation", .product(name: "Adwaita", package: "Adwaita")]
-        ),
-        .target(
-            name: "CodeEditorFoundation",
-            dependencies: ["CCodeEditor", .product(name: "Libadwaita", package: "Libadwaita")]
+            dependencies: [.product(name: "Adwaita", package: "Adwaita"), "CCodeEditor"]
         ),
         .systemLibrary(
             name: "CCodeEditor",
